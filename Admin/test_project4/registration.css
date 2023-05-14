@@ -1,0 +1,83 @@
+
+.error {
+    color: red;
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+/* div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+} */
+
+form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Satisfy', cursive;
+}
+
+div form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+/* input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-right: 0px;
+} */
+
+button[type="submit"] {
+    background-color: #b359b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #632879;
+}
+
+.que {
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+}
+
+form p span {
+    margin-left: 10px;
+}

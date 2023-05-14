@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .container{
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        height: 650px;
+    }
+    .left{
+        /* padding-top: 40px; */
+        width: 50%;
+        background-color: white;
+
+    }
+    .right{
+        width: 50%;
+        background-image: url(https://www.thedailymeal.com/img/gallery/you-should-think-twice-about-bagging-your-own-groceries-at-the-store/l-intro-1681220544.jpg);
+        background-repeat: no-repeat;
+        background-color: white;
+        
+    }
+    .error {
+        color: red;
+    }
+    
+    /* Registration form styles */
+    h2 {
+        font-family: 'Pacifico', cursive;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .que {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .que a {
+        color: blue;
+    }
+    
+    .que a:hover {
+        text-decoration: underline;
+    }
+    
